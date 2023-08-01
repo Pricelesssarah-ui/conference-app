@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import { FaHome, FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaHome, FaFacebook, FaLinkedin, FaTwitter, FaYoutube, FaIcicles } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
 import { AiOutlineClose } from 'react-icons/ai';
 
@@ -20,8 +20,8 @@ const Navbar = () => {
                 
                 <div className='hidden md:flex gap-10 tracking-wider text-gray-600'>
                     <Link href="/" className='hover:text-yellow-400'>Home</Link>
+                    <Link href="#speakers" className='hover:text-yellow-400'>Speakers</Link>
                     <Link href="#schedule" className='hover:text-yellow-400'>Schedule</Link>
-                    <Link href="#location" className='hover:text-yellow-400'>Location</Link>
                     <Link href="#workshop" className='hover:text-yellow-400'>Workshops</Link>
                 </div>
 

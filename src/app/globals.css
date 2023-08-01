@@ -9,20 +9,3 @@
         transition duration-300;
     }
 }
-@layer base {
-    .scheduleSlider .swiper-button-prev,
-    .scheduleSlider .swiper-button-next {
-        @apply bg-yellow-200 text-white top-[96%] md:top-[90%] w-[46px] rounded-full z-20
-    }
-    .scheduleSlider .swiper-button-prev {
-        @apply left-[35%] md:left-[40%] lg:left-[45%]
-    }
-    .scheduleSlider .swiper-button-next {
-        @apply right-[35%] md:right-[40%] lg:right-[45%]
-    }
-
-    .scheduleSlider .swiper-button-prev::after,
-    .scheduleSlider .swiper-button-next::after {
-        @apply text-lg
-    }
-}
