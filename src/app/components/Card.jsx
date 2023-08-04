@@ -11,7 +11,11 @@ function Card({image, title, text}) {
                 group-hover:bottom-0 opacity-0 group-hover:opacity-100 -bottom-20 transition-all duration-300">
                 <h3 className="font-bold text-1xl md:text-1xl lg:text-2xl mt-6">{title}</h3>
 
-                <Button link="#" text="See more..." />
+                <button>
+                    <a href="#" className='hidden md:block bg-yellow-400 text-bold px-4 py-1 rounded-md text-black 
+                    hover:bg-yellow-600 hover:border-none hover:text-black-bold' >See more...
+                    </a>
+                </button>
             </div>
         </div>
     )

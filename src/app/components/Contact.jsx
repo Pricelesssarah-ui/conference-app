@@ -26,9 +26,14 @@ function Contact() {
             </form>
 
             <div className="mx-auto text-center mt-10">
-                <textarea name="message" id="#" cols="25" rows="10"placeholder="message..." className="border border-black mb-5 p-5 lg:w-[78%] md:w-[100%] rounded-md"></textarea>
+                <textarea name="message" id="#" cols="23" rows="10"placeholder="message..." className="border border-black mb-5 p-5 lg:w-[78%] md:w-[100%] rounded-md"></textarea>
                 <br />
-                <Button className="cursor-pointer" text="Send Message" />
+
+                <button>
+                    <a href="#contact" className='hidden md:block border bg-yellow-400 text-bold px-4 py-1 rounded-md text-black 
+                    hover:bg-yellow-600 hover:border-none hover:text-black-bold' >Send Messsage
+                    </a>
+                </button>
             </div>
         </div>
     )

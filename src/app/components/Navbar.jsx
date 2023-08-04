@@ -26,11 +26,11 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <button>
-                        <a href="#contact" className='hidden md:block border border-black px-4 py-1 rounded-md text-black 
-                        hover:bg-yellow-400 hover:border-none hover:text-white' >Contact Us
-                        </a>
-                    </button>
+                <button>
+                    <a href="#contact" className='hidden md:block border bg-yellow-400 text-bold px-4 py-1 rounded-md text-black 
+                    hover:bg-yellow-600 hover:border-none hover:text-black-bold' >Contact us
+                    </a>
+                </button>
                 </div>
                 {toggle ? (
                     <AiOutlineClose onClick={() => setToggle(!toggle)} size={30} className='md:hidden block' />
