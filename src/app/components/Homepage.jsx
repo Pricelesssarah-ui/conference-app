@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 function Homepage() {
     return(
-        <div className='bg-[url("/hero.jpg")] h-screen bg-cover bg-no-repeat bg-center
+        <div id='home' className='bg-[url("/hero.jpg")] h-screen bg-cover bg-no-repeat bg-center
             bg-fixed flex items-center relative'>
            <div className='absolute inset-0 bg-black/60'></div>
            <div className='container mx-auto px-4 z-10'>

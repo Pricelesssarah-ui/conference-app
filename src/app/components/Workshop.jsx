@@ -6,8 +6,8 @@ import Button from "./Button";
 
 function Workshop() {
     return(
-      <div id="workshop" className="max-w-[1640px] mx-auto p-4 py-16">
-        <Headings title='Workshop' />
+      <div id="workshops" className="max-w-[1640px] mx-auto p-4 py-16">
+        <Headings title='Workshops' />
         
         <div className="grid md:grid-cols-2 lg:grid-cols-2 object-contain gap-6 px-5 py-12">
             <Card image="./hall.jpg" title="Introduction to WebDev" />

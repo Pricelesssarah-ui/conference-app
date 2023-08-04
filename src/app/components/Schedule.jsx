@@ -4,11 +4,11 @@ import Headings from "./Headings";
 
 function Schedule() {
     return(
-        <div id="workshop" className="max-w-[1640px] mx-auto p-4 py-16 bg-yellow-700 text-white">
+        <div id="schedule" className="max-w-[1640px] mx-auto p-4 py-16 bg-yellow-700 text-white">
             <Headings title="Schedule" />
 
             <div className="text-center">
-                <p className="text-bold">Date: August 3rd, 2023</p>
+                <p className="text-bold">Date: August 26th, 2023</p>
                 <p className="text-bold">Time: 7:30AM to 4:00PM</p>
                 <p className="text-bold">Location: ACE Hotel</p>
             </div>

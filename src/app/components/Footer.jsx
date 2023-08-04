@@ -6,8 +6,8 @@ import { FaHome, FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icon
 function Footer() {
     return(
         <div className="lg:flex md:flex sm:block p-4 gap-5 items-center justify-around bg-black text-white w-[100%] md:h-[250px] lg:h-[200px]">
-            <div className="sm:mr-0 mt-3 lg:mr-10 flex flex-col">
-                <div className="flex gap-1 mb-3 items-center text-2xl font-bold">
+            <div className="sm:mr-0 lg:mr-10 flex flex-col">
+                <div className="flex gap-1 mb-3 text-2xl items-center font-bold">
                     <span className='italic'>Settle</span>
                     <FaHome />
                     <span className='italic text-yellow-400'>Inn</span>

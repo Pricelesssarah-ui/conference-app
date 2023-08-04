@@ -19,15 +19,17 @@ const Navbar = () => {
                 </div>
                 
                 <div className='hidden md:flex gap-10 tracking-wider text-gray-600'>
-                    <Link href="/" className='hover:text-yellow-400'>Home</Link>
+                    <Link href="#home" className='hover:text-yellow-400'>Home</Link>
                     <Link href="#speakers" className='hover:text-yellow-400'>Speakers</Link>
                     <Link href="#schedule" className='hover:text-yellow-400'>Schedule</Link>
-                    <Link href="#workshop" className='hover:text-yellow-400'>Workshops</Link>
+                    <Link href="#workshops" className='hover:text-yellow-400'>Workshops</Link>
                 </div>
 
                 <div>
-                    <button href="#contact" className='hidden md:block border border-black-900 px-4 py-1 rounded-md text-black-400 
-                        hover:bg-yellow-400 hover:text-white'>Contact Us
+                    <button>
+                        <a href="#contact" className='hidden md:block border border-black px-4 py-1 rounded-md text-black 
+                        hover:bg-yellow-400 hover:border-none hover:text-white' >Contact Us
+                        </a>
                     </button>
                 </div>
                 {toggle ? (

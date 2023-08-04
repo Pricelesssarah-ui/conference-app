@@ -28,7 +28,7 @@ function Contact() {
             <div className="mx-auto text-center mt-10">
                 <textarea name="message" id="#" cols="25" rows="10"placeholder="message..." className="border border-black mb-5 p-5 lg:w-[78%] md:w-[100%] rounded-md"></textarea>
                 <br />
-                <Button text="Send Message" />
+                <Button className="cursor-pointer" text="Send Message" />
             </div>
         </div>
     )

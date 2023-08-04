@@ -14,7 +14,7 @@ function Speakers() {
                 <Card image="./speaker2.jpg" title="Timothy Black" />
                 <Card image="./speaker3.jpg" title="Peace Jacobs" />
                 <Card image="./speaker4.jpg" title="Daniel Reo" />
-                <Card image="./speaker5.jpg" title="Alex Emen" />
+                <Card image="./speaker5.jpg" title="Gab Abel" />
                 <Card image="./speaker6.jpg" title="Gary Bush" />
                 <Card image="./speaker7.jpg" title="Vivian Peters" />
                 <Card image="./speaker8.jpg" title="Royin Neo" />
